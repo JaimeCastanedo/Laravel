@@ -1,7 +1,8 @@
 # laravelProyect
 
 ## Descripción del proyecto
-Aplicación web desarrollada con Laravel para gestionar clientes, empleados, inventario y productos.
+Aplicación web desarrollada con Laravel para gestionar distintos modulos.
+La aplicacion gestiona usuarios, clientes... tiene las operaciones CRUD (Crear, leer, actualizar y borrar).
 
 ## Requisitos para ejecutarlo
 - PHP 8.1 o superior
@@ -51,8 +52,10 @@ npm run dev
 ```
 php artisan serve
 ```
+---
+<h1> Pasos que he seguido para realizar el projecto </h1>
 
-<p> He seguido también los pasos que pusiste:</p>
+
 <p>1.- Composer create-project laravel/laravel nombre_proyecto
 cd nombre_proyecto
 Crea un nuevo proyecto Laravel con toda la estructura base y dependencias
@@ -92,7 +95,7 @@ etc.).
 Instala AdminLTE, un panel administraƟvo con diseño profesional para Laravel.
 </p>
 <p>
-9.- php arƟsan adminlte:install –type=full
+9.- php artisan adminlte:install –type=full
 Instala AdminLTE con todas las vistas, assets, autenƟcación y configuración completa.
 </p>
 <p>
@@ -111,9 +114,10 @@ AdminLTE.
 - Usuario: `admin@example.com`
 - Contraseña: `password`
 
-Si los seeders del proyecto crean un usuario de prueba, ejecuta `php artisan db:seed`. Si no, crea el usuario manualmente.
-
 ---
+<h2>Archivo SQL</h2>
+<p>Dentro de los archivos del proyecto encontrarás el sql que contiene los datos importados de la base de datos con el nombre de "Dump20260202.sql"</p>
+
 
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
