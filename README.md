@@ -52,7 +52,60 @@ npm run dev
 php artisan serve
 ```
 
-Nota: con XAMPP pon el `DocumentRoot` en la carpeta `public`.
+<p> He seguido también los pasos que pusiste:</p>
+<p>1.- Composer create-project laravel/laravel nombre_proyecto
+cd nombre_proyecto
+Crea un nuevo proyecto Laravel con toda la estructura base y dependencias
+necesarias.
+</p>
+<p>
+2.- Composer require laravel/ui
+Instala el paquete Laravel UI, que permite generar interfaces básicas de autenƟcación y
+frontend (Bootstrap, Vue o React).
+</p>
+<p>
+3.- php arƟsan ui Bootstrap –auth
+Genera las vistas de autenƟcación (login, registro, etc.) usando Bootstrap como
+framework CSS.
+(yes) -> Confirma la sobrescritura de archivos existentes, si Laravel lo solicita.
+</p>
+<p>
+4.- Npm install
+Instala las dependencias frontend (Bootstrap, jQuery, etc.) definidas en package.json.
+</p>
+<p>
+5.- Npm run dev
+Compila los archivos CSS y JavaScript para desarrollo usando Laravel Mix/Vite.
+</p>
+<p>
+6.- Cambiar/configurar base de datos .env
+Configura la conexión a la base de datos en el archivo .env (nombre, usuario,
+contraseña).
+</p>
+<p>
+7.- Php arƟsan migrate
+Ejecuta las migraciones y crea las tablas en la base de datos (usuarios, contraseñas,
+etc.).
+</p>
+<p>
+8.- Composer require jeroennoten/laravel-adminlte
+Instala AdminLTE, un panel administraƟvo con diseño profesional para Laravel.
+</p>
+<p>
+9.- php arƟsan adminlte:install –type=full
+Instala AdminLTE con todas las vistas, assets, autenƟcación y configuración completa.
+</p>
+<p>
+10.- Copiar el app.blade.php de jeroennoten github
+Reemplaza el layout principal para que la estructura HTML base sea compaƟble con
+AdminLTE.
+</p>
+
+<p></p><p></p>
+
+<p>Y para completar el resto he usado la IA como dijiste</p>
+
+---
 
 ## Usuario y contraseña de prueba (si procede)
 - Usuario: `admin@example.com`
