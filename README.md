@@ -1,3 +1,67 @@
+# laravelProyect
+
+## Descripción del proyecto
+Aplicación web desarrollada con Laravel para gestionar clientes, empleados, inventario y productos.
+
+## Requisitos para ejecutarlo
+- PHP 8.1 o superior
+- Composer
+- Node.js (16+) y NPM o Yarn
+- MySQL o MariaDB
+- Servidor local (XAMPP, WAMP) o entorno equivalente
+- Extensiones PHP: `pdo`, `mbstring`, `openssl`, `tokenizer`, `xml`, `ctype`, `json`, `bcmath`, `fileinfo`
+
+## Pasos básicos de instalación
+1. Clona el repositorio:
+
+```
+git clone <repo-url>
+cd laravelProyect
+```
+
+2. Instala dependencias PHP:
+
+```
+composer install
+cp .env.example .env
+```
+
+3. Configura el archivo `.env` (datos de base de datos) y genera la clave de la aplicación:
+
+```
+php artisan key:generate
+```
+
+4. Ejecuta migraciones y seeders (si procede):
+
+```
+php artisan migrate
+php artisan db:seed
+```
+
+5. Instala dependencias JS y compila assets:
+
+```
+npm install
+npm run dev
+```
+
+6. Levanta el servidor de desarrollo:
+
+```
+php artisan serve
+```
+
+Nota: con XAMPP pon el `DocumentRoot` en la carpeta `public`.
+
+## Usuario y contraseña de prueba (si procede)
+- Usuario: `admin@example.com`
+- Contraseña: `password`
+
+Si los seeders del proyecto crean un usuario de prueba, ejecuta `php artisan db:seed`. Si no, crea el usuario manualmente.
+
+---
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
